@@ -18,4 +18,4 @@ Set-PSReadLineOption -EditMode Windows
 Set-PSReadLineKeyHandler -Chord Shift+Spacebar -Function MenuComplete
 
 
-oh-my-posh --init --shell pwsh --config ~/.oh-my-posh | Invoke-Expression
+oh-my-posh --init --shell pwsh --config ~/oh-my-posh.json | Invoke-Expression

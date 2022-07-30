@@ -18,7 +18,7 @@ Set-PSReadLineOption -EditMode Windows
 Set-PSReadLineKeyHandler -Chord Shift+Spacebar -Function MenuComplete
 
 
-$winhome = /mnt/c/Users/ignac
+$winhome = "/mnt/c/Users/ignac"
 
 
 oh-my-posh --init --shell pwsh --config ~/oh-my-posh.json | Invoke-Expression
